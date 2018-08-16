@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sg.edu.rp.webservices.firebasestudentapp2.MainActivity">
+
+    <item
+        android:id="@+id/action_view_profile"
+        android:orderInCategory="100"
+        android:title="View My Profile"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/addInventory"
+        android:title="Add Item" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Log Out"
+        app:showAsAction="never" />
+</menu>
